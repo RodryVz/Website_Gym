@@ -7,11 +7,11 @@ const Header = () => {
             <img src={Logo} alt="" className="logo"/>
 
             <ul className="header-menu">
-                <li>Home</li>
-                <li>Programas</li>
-                <li>Poque Nosotros</li>
-                <li>Planes</li>
-                <li>Reseñas</li>
+                <li>HOME</li>
+                <li>PROGRAMAS</li>
+                <li>PORQUE NOSOTROS</li>
+                <li>PLANES</li>
+                <li>RESEÑAS</li>
             </ul>
         </div>
     )
