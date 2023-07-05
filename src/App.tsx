@@ -3,6 +3,7 @@ import Hero from './components/Hero/Hero';
 import Plans from './components/Plans/Plans';
 import Programs from './components/Programs/Programs';
 import Reason from './components/Reason/Reason';
+import Testimonials from './components/Testimonials/Testimonials';
 
 
 
@@ -13,6 +14,7 @@ function App() {
           <Programs/>
           <Reason/>
           <Plans/>
+          <Testimonials/>
     </div>
   );
 }
