@@ -16,7 +16,31 @@ const Reason = () => {
             </div>
 
             <div className="right-r">
-                Right
+                <span>Algunas razones</span>
+
+                <div>
+                    <span className="stroke-text">Porque </span>
+                    <span>Elegirnos?</span>
+                </div>
+
+                <div className="details-r">
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>Mas de 50 entrenadores expertos</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>Entrenar inteigentemente y mejor que antes</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>1 programa gratuitos para nuevos miembros</span>
+                    </div>
+                    <div>
+                        <img src={tick} alt="" />
+                        <span>Calidad premium en nuestros equipos </span>
+                    </div>
+                </div>
             </div>
         </div>
     )
