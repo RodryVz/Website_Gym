@@ -3,10 +3,11 @@ import "./Hero.css";
 import hero_imagen from "../../assets/hero_image.png";
 import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
-import Calories from "../../assets/calories.png";
+import { motion } from "framer-motion";
 
 
 const Hero = () => {
+    const transition = {type: 'spring', duration: 3};
     return (
         <div className="hero">
             <div className="blur hero-blur"></div>
@@ -14,7 +15,11 @@ const Hero = () => {
                 <Header />
 
                 <div className="the-best-ad">
-                    <div></div>
+                    <motion.div
+                    initial = {{left: '238px'}}
+                    whileInView={{left: '8px'}}
+                    transition={{...transition, type: 'tween'}}
+                    ></motion.div>
                     <span>The best fitness club in the town</span>
                 </div>
                 {/*hero*/}
@@ -60,11 +65,15 @@ const Hero = () => {
             <div className="right-h">
                 <button className="btn">Unete Ahora</button>
 
-                <div className="heart-rate">
+                <motion.div
+                    initial = {{right: "-1rem"}}
+                    whileInView={{right: "4rem"}}
+                    transition={transition}
+                    className="heart-rate">
                     <img src={Heart} alt="" />
                     <span>Ritmo Cardiaco</span>
                     <span>116 Bpm</span>
-                </div>
+                    </motion.div>
                 {/*hero img*/}
 
                 <img src={hero_imagen} alt="" className="hero-image"/>
