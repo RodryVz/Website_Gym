@@ -1,7 +1,6 @@
 import Header from "../Header/Header";
 import "./Hero.css";
 import hero_imagen from "../../assets/hero_image.png";
-import hero_image_back from "../../assets/hero_image_back.png";
 import Heart from "../../assets/heart.png";
 import { motion } from "framer-motion";
 
@@ -78,7 +77,6 @@ const Hero = () => {
                 {/*hero img*/}
 
                 <img src={hero_imagen} alt="" className="hero-image"/>
-                <img src={hero_image_back} alt="" className="hero-image-back"/>
             </div>
             <hr />
         </div>

@@ -47,7 +47,7 @@
 .right-t>:nth-child(1) {
     position: absolute;
     width: 17rem;height: 20rem;
-    border: 2px solid orange;
+    border: 2px solid rgb(128, 255, 0);
     background-color: transparent;
     right: 9rem;
     top: 0.9rem;
